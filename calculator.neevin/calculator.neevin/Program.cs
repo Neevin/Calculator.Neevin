@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace calculator.neevin
+namespace Calculator.Neevin
 {
     static class Program
     {

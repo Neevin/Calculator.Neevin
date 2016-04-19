@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace calculator.neevin.Properties
+namespace Calculator.Neevin.Properties
 {
 
 

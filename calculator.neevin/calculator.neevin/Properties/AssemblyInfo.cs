@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("calculator.neevin")]
+[assembly: AssemblyTitle("Calculator.Neevin")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("calculator.neevin")]
+[assembly: AssemblyProduct("Calculator.Neevin")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9c5652a7-ce6c-4a0f-b996-2ffddeb84d5b")]
+[assembly: Guid("2b7b3d8d-a94b-4716-8772-0c06139a2d42")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace calculator.neevin
+namespace Calculator.Neevin
 {
     public partial class Form1 : Form
     {
@@ -34,6 +34,7 @@ namespace calculator.neevin
 
         private void button3_Click(object sender, EventArgs e)
         {
+
             double firstValue = Convert.ToDouble(textBox1.Text);
             double secondValue = Convert.ToDouble(textBox2.Text);
             double result = firstValue / secondValue;
