@@ -17,36 +17,31 @@ namespace Calculator.Neevin
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Caclculate(object sender, EventArgs e)
         {
             double firstValue = Convert.ToDouble(textBox1.Text);
             double secondValue = Convert.ToDouble(textBox2.Text);
-            double result = firstValue + secondValue;
-            label1.Text = result.ToString();
-        }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            double firstValue = Convert.ToDouble(textBox1.Text);
-            double secondValue = Convert.ToDouble(textBox2.Text);
-            double result = firstValue - secondValue;
+            double result;
+            switch (((Button) sender).Name)
+            {
+                case "button1":
+
+                    result = firstValue * secondValue;
+                    break;
+                case "button2":
+                    result = firstValue / secondValue;
+                    break;
+                case "button3":
+                    result = firstValue + secondValue;
+                    break;
+                case "button4":
+                    result = firstValue - secondValue;
+                    break;
+                default:
+                    throw new Exception("Неизвестная операция ");
+            }
             label1.Text = result.ToString();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-            double firstValue = Convert.ToDouble(textBox1.Text);
-            double secondValue = Convert.ToDouble(textBox2.Text);
-            double result = firstValue / secondValue;
-            label1.Text = result.ToString();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            double firstValue = Convert.ToDouble(textBox1.Text);
-            double secondValue = Convert.ToDouble(textBox2.Text);
-            double result = firstValue * secondValue;
-            label1.Text = result.ToString();
-        }
     }
 }
