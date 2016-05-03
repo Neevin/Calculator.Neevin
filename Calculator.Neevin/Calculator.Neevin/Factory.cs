@@ -9,18 +9,13 @@ namespace Calculator.Neevin
             switch (name)
             {
                 case "button1":
-
                     return new Substraction();
-                    break;
                 case "button2":
                     return new Division();
-                    break;
                 case "button3":
-                   return new Addition();
-                    break;
+                    return new Addition();
                 case "button4":
-                   return new Multiplication();
-                    break;
+                    return new Multiplication();
                 default:
                     throw new Exception("Неизвестная операция ");
             }

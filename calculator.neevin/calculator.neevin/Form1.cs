@@ -26,6 +26,15 @@ namespace Calculator.Neevin
            
            label1.Text = result.ToString();
         }
+        
+        private void SingleCalculate(object sender, EventArgs e)
+        {
+            double firstValue = Convert.ToDouble(textBox1.Text);
+          
+            ISingleInterface calculate = SingleFactory.CreateCalculate(((Button)sender).Name);
+            double result = calculate.Calculate(firstValue);
 
+            label1.Text = result.ToString();
+        }
     }
 }
