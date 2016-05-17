@@ -12,12 +12,6 @@ namespace Calculator.Neevin
                     return new Cosinus();
                 case "sin":
                     return new Sinus();
-                case "log":
-                    return new Log();
-                case "sqrt":
-                    return new Sqrt();
-                case "exp":
-                    return new Exp();
                 default:
                     throw new Exception("Неизвестная операция ");
             }
