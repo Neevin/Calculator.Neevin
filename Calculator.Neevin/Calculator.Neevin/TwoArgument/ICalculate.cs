@@ -1,4 +1,4 @@
-﻿namespace Calculator.Neevin
+﻿namespace Calculator.Neevin.TwoArgument
 {
     public interface ICalculate
     {

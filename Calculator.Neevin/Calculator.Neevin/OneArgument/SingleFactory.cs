@@ -1,6 +1,7 @@
 ﻿using System;
+using Calculator.Neevin.TwoArgument;
 
-namespace Calculator.Neevin
+namespace Calculator.Neevin.OneArgument
 {
     public static class SingleFactory
     {

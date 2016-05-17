@@ -1,4 +1,4 @@
-﻿namespace Calculator.Neevin
+﻿namespace Calculator.Neevin.OneArgument
 {
     public interface ISingleInterface
     {

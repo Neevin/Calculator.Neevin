@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Calculator.Neevin.OneArgument;
+using Calculator.Neevin.TwoArgument;
 
 namespace Calculator.Neevin
 {
