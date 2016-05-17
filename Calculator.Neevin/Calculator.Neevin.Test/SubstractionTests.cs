@@ -4,15 +4,17 @@ using NUnit.Framework;
 
 namespace Calculator.Neevin.Test
 {
-     [TestFixture]
+    [TestFixture]
     public class SubstractionTests
     {
-        [Test]
-        public void SimpleSubstractionTest()
+        [TestCase(5, 4, 1)]
+        [TestCase(6, 3, 3)]
+        [TestCase(9, 8, 1)]
+        public void SimpleSubstractionTest(double firstArgument, double secondArgument, double expected)
         {
             ICalculate calculator = new Substraction();
-            double result = calculator.Calculate(5, 4);
-            Assert.AreEqual(1, result);
-        } 
+            double result = calculator.Calculate(firstArgument, secondArgument);
+            Assert.AreEqual(expected, result);
+        }
     }
 }

@@ -8,12 +8,14 @@ namespace Calculator.Neevin.Test
     public class MultiplicationTests
     {
 
-        [Test]
-        public void SimpleMultiplicationTest()
+        [TestCase(16, 4, 12)]
+        [TestCase(6, 1, 5)]
+        [TestCase(10, 8, 2)]
+        public void SimpleMultiplicationTest(double firstArgument, double secondArgument, double expected)
         {
             ICalculate calculator = new Multiplication();
-            double result = calculator.Calculate(16, 4);
-            Assert.AreEqual(12, result);
+            double result = calculator.Calculate(firstArgument, secondArgument);
+            Assert.AreEqual(expected, result);
         }
     }
 }
