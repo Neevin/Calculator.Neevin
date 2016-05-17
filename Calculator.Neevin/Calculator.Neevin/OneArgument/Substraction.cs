@@ -6,7 +6,7 @@ namespace Calculator.Neevin.OneArgument
     {
         public double Calculate(double first, double second)
         {
-             return first * second;
+             return first - second;
         
     }
 }
