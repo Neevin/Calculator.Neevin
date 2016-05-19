@@ -1,7 +1,6 @@
 ﻿using System;
-using Calculator.Neevin.OneArgument;
 
-namespace Calculator.Neevin.TwoArgument
+namespace Calculator.Neevin.OneArgument
 {
     public class Log : ISingleInterface
     {

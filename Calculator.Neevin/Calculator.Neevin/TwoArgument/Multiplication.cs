@@ -1,6 +1,4 @@
-﻿using Calculator.Neevin.TwoArgument;
-
-namespace Calculator.Neevin.OneArgument
+﻿namespace Calculator.Neevin.TwoArgument
 {
     public class Multiplication: ICalculate
     {
