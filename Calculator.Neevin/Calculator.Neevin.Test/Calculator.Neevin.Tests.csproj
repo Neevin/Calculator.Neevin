@@ -43,11 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DivisionTests.cs" />
-    <Compile Include="MultiplicationTests.cs" />
+    <Compile Include="OneArgument\ExpTests.cs" />
+    <Compile Include="OneArgument\LogTests.cs" />
+    <Compile Include="OneArgument\SinusTests.cs" />
+    <Compile Include="OneArgument\SqrtTests.cs" />
+    <Compile Include="TwoArgument\DivisionTests.cs" />
+    <Compile Include="TwoArgument\MultiplicationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SubstractionTests.cs" />
+    <Compile Include="TwoArgument\SubstractionTests.cs" />
     <Compile Include="TwoArgument\AdditionTests.cs" />
+    <Compile Include="OneArgument\CosinusTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

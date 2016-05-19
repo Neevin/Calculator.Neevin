@@ -2,7 +2,7 @@
 using Calculator.Neevin.TwoArgument;
 using NUnit.Framework;
 
-namespace Calculator.Neevin.Test
+namespace Calculator.Neevin.Test.TwoArgument
 {
     [TestFixture]
     public class SubstractionTests
