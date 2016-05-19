@@ -1,4 +1,5 @@
-﻿using Calculator.Neevin.OneArgument;
+﻿using System;
+using Calculator.Neevin.OneArgument;
 using Calculator.Neevin.TwoArgument;
 using NUnit.Framework;
 
@@ -16,6 +17,13 @@ namespace Calculator.Neevin.Test.TwoArgument
             ICalculate calculator = new Division();
             double result = calculator.Calculate(firstArgument, secondArgument);
             Assert.AreEqual(expected, result);
-        }  
+        }
+
+          [Test]
+          public void DivisionbyZeroTest()
+          {
+              ICalculate calculator = new Division();
+              Assert.Throws<Exception>(() => calculator.Calculate(465, 0));
+          }  
     }
 }

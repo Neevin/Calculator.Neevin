@@ -1,4 +1,5 @@
-﻿using Calculator.Neevin.OneArgument;
+﻿using System;
+using Calculator.Neevin.OneArgument;
 using Calculator.Neevin.TwoArgument;
 using NUnit.Framework;
 
@@ -17,5 +18,11 @@ namespace Calculator.Neevin.Test.OneArgument
             Assert.AreEqual(expected, result, 0.01);
         }
 
+        [Test]
+        public void LogbyZeroTest()
+        {
+            ISingleInterface calculator = new Log();
+            Assert.Throws<Exception>(() => calculator.Calculate(-10));
+        }
     }
 }

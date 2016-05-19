@@ -1,5 +1,4 @@
 ﻿using System;
-using Calculator.Neevin.OneArgument;
 using Calculator.Neevin.TwoArgument;
 using NUnit.Framework;
 
